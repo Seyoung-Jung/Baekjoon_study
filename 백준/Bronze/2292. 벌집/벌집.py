@@ -1,8 +1,6 @@
-n = int(input())
-
-nums_pileup = 1
+N = int(input())
 answer = 1
-while n > nums_pileup :
-    nums_pileup += 6 * answer
+while N > 1:
+    N -= answer * 6
     answer += 1
 print(answer)
